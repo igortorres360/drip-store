@@ -1,0 +1,28 @@
+.product-card {
+  width: 292px;
+}
+
+.product-card-image {
+  display: block;
+  width: 292px;
+  height: 321px;
+  object-fit: cover;
+}
+
+.product-card-name {
+  color: #474747;
+  font-size: 16px;
+  margin: 12px 0 8px;
+}
+
+.product-card-price {
+  font-size: 24px;
+  color: #1f1f1f;
+  margin: 0;
+}
+
+.product-card-old-price {
+  color: #8f8f8f;
+  text-decoration: line-through;
+  margin-right: 8px;
+}
