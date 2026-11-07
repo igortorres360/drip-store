@@ -1,5 +1,6 @@
 import Section from "./components/Section";
 import ProductListing from "./components/ProductListing";
+import Header from "./components/Header";
 
 const products = [
   { name: "Produto 1", image: "/product-thumb-1.jpeg", price: 200, priceDiscount: 149.9 },
@@ -13,11 +14,15 @@ const products = [
 ];
 
 function App() {
-  return (
+return (
+  <>
+    <Header />
     <Section title="Produtos em alta" titleAlign="left">
       <ProductListing products={products} />
     </Section>
-  );
+  </>
+);
 }
 
 export default App;
+
