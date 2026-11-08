@@ -1,0 +1,42 @@
+.footer {
+  background: #1f1f1f;
+  color: #ffffff;
+  padding: 48px 32px 24px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.footer-about {
+  max-width: 307px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-about p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-social {
+  display: flex;
+  gap: 24px;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid #666666;
+  margin: 40px 0 24px;
+}
+
+.footer-copy {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+}
